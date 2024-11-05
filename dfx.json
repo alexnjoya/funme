@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "funme_backend": {
+      "main": "src/funme_backend/main.mo",
+      "type": "motoko"
+    },
+    "funme_frontend": {
+      "dependencies": [
+        "funme_backend"
+      ],
+      "source": [
+        "src/funme_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "funme_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
