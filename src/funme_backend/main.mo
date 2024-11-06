@@ -2,8 +2,8 @@ import HashMap "mo:base/HashMap";
 import Iter "mo:base/Iter";
 import Text "mo:base/Text";
 
-actor Fungo {
-    // Define a type for the fungo project with a required image field
+actor Funme {
+    // type for the funme project with a required image field
     public type Project = {
         id: Text;
         name: Text;
@@ -15,7 +15,7 @@ actor Fungo {
     // State variable to store projects
     private var projects: HashMap.HashMap<Text, Project> = HashMap.HashMap(1, Text.equal, Text.hash);
 
-    // Create a new project with a required image
+    // Creating a new project with a required image
     public func createProject(id: Text, name: Text, targetAmount: Float, image: Blob) : async Bool {
         let newProject: Project = {
             id = id;
