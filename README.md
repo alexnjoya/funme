@@ -159,3 +159,5 @@ Contributions are welcome! If you'd like to contribute, please fork the reposito
 
 This project is licensed under the MIT License. See `LICENSE` for more details.
 
+ funme_frontend, with canister ID pz7jz-pqaaa-aaaao-qeyvq-cai
+ funme_backend, with canister ID avqkn-guaaa-aaaaa-qaaea-cai
