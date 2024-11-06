@@ -31,7 +31,7 @@ function CreateProject({ onCreate }) {
 
   return (
     <div className="flex items-center justify-center h-screen">
-      <form onSubmit={handleSubmit} className="bg-white p-6 rounded shadow-md w-auto">
+      <form onSubmit={handleSubmit} className="bg-white p-6 rounded shadow-md w-full max-w-md mx-auto">
         <h2 className="text-2xl font-bold mb-4 text-center">Create a New Project</h2>
         <input
           type="text"
@@ -64,7 +64,7 @@ function CreateProject({ onCreate }) {
           className="border border-gray-300 rounded-lg p-2 mb-4 w-full"
           required
         />
-        <button className="bg-blue-500 text-white p-2 rounded hover:bg-blue-600 w-200">Create Project</button>
+        <button className="bg-blue-500 text-white p-2 rounded hover:bg-blue-600 w-full">Create Project</button>
       </form>
     </div>
   );
