@@ -1,10 +1,10 @@
 import { funme_backend } from 'declarations/funme_backend';
 import './index.scss';
 import React, { useState, useEffect } from 'react';
-import Donate from './components/donate';
 import AllProjects from './components/allproject';
 import CreateProject from './components/createproject';
-//import Project from './components/project';
+
+
 function App() {
   const [projects, setProjects] = useState([]);
   const [message, setMessage] = useState("");
